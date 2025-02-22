@@ -1,0 +1,172 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-990: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 0 28px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ol li::marker {
+  color: var(--brown-800);
+  font-weight: 600;
+}
+
+ul li::marker {
+  font-size: 12px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p,
+li,
+td {
+  color: var(--stone-600);
+}
+
+span {
+  color: var(--rose-800);
+  font-weight: bold;
+}
+
+h1.heading {
+  color: var(--stone-990);
+  font-family: "Young Serif";
+  font-size: 2rem;
+  margin: 8px 0;
+}
+
+h2 {
+  color: var(--brown-800);
+  margin: 16px 0;
+  font-size: 1.6rem;
+  font-family: "Young Serif";
+}
+
+.preparation {
+  margin: 36px 0;
+  padding: 28px;
+  background-color: var(--rose-50);
+  border-radius: 8px;
+}
+
+.preparation h3 {
+  color: var(--rose-800);
+  margin-bottom: 8px;
+}
+
+.preparation ul {
+  margin-left: 20px;
+}
+
+.ingredients,
+.instructions,
+.nutrition {
+  border-top: 1px solid var(--stone-150);
+}
+
+.ingredients ul {
+  margin-left: 20px;
+}
+
+.nutrition p {
+  margin: 16px 0;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.nutrition td {
+  padding: 8px 28px;
+}
+
+tbody td {
+  border-bottom: solid 1px;
+  border-color: hsl(30, 18%, 87%);
+}
+
+.no-line {
+  border-bottom: none;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #794c44;
+}
+
+/* ====== RESPONSIVE DESIGN ======= */
+@media screen and (min-width: 640px) {
+  body {
+    background-color: var(--rose-50);
+  }
+
+  .container {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  img {
+    border-radius: 16px;
+  }
+
+  main {
+    background-color: #fff;
+    width: 400px;
+    padding: 28px;
+    margin: 64px auto;
+    border-radius: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 600px;
+  }
+}
