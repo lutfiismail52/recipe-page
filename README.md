@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [](https://github.com/)
-- Live Site URL: [](htpps://github.com/)
+- [Solution URL](https://github.com/lutfiismail52/recipe-page)
+- [Live Site URL](https://lutfiismail52.github.io/recipe-page/)
 
 ## My process
 
