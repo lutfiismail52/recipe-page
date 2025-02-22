@@ -8,9 +8,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Build with](#built-with)
+  - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -79,8 +78,6 @@ ul li::marker {
 ```
 
 With this, I can give a more unique style to the list without changing the HTML structure.
-
-### Useful resources
 
 ## Author
 
